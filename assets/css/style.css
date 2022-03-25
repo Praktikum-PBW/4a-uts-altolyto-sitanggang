@@ -1,0 +1,30 @@
+#pict{
+    height:220px;
+}
+#home{
+    display:contents;
+}
+body{
+    background-color:#DEEFE7;
+}   
+.card-body{
+    background-color:white ; 
+}
+*{
+    font-family: 'Shadows Into Light', cursive;
+}
+#maker{
+    background-color: #AAD6D7;
+}
+#accord{
+    background-color: #CFDFE4;
+}
+#title{
+    font-family: 'Oswald', sans-serif;
+}
+#teks{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.accordion-button{
+    border-color: aquamarine;
+}

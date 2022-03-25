@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="assets/images/tone.png">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav style="background-color: #5AA2AE;" id="navbar" class="navbar navbar-expand-lg navbar-light " >
+        <div id="navbar" class="container">
+          <a class="navbar-brand" href="#">
+              <img src="assets/images/Logo.png" alt="" height="38px" weight="20px"> TopUpIn
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Top Up</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="contact.html">Contact</a>
+              </li>
+          </div>
+        </div>
+    </nav>
+    <!-- Top Up -->
+    <section>
+        <p class="fs-1 text-center py-3">Top Up</p>
+        <hr class="w-25 mx-auto">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Mobile Legends
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body" id="accord">
+              <div class="container">
+              <div class="row" >
+                  <div class="col">
+                      <form class="py-4">
+                          <h2>Mobile Legends</h2>
+                          <p>Silahkan mengisi data untuk melakukan top up</p>
+                          <div class="mb-3">
+                            <label for="text" class="form-label">Nominal Diamond</label>
+                            <input type="text" class="form-control">
+                          </div>
+                          <div class="row">
+                              <div class="col">
+                                <label for="name" class="form-label">User ID</label>
+                                <input type="text" class="form-control">
+                              </div>
+                              <div class="col">
+                                <label for="name" class="form-label">(Zone ID)</label>
+                                <input type="text" class="form-control" id="message">
+                              </div>
+                          </div>
+                          <div class="mb-3">
+                            <label for="email" class="form-label">Alamat Email</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                          </div>
+                          <div class="col-12">
+                            <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+                            <select class="form-select" id="inlineFormSelectPref">
+                              <option selected>Metode Pembayaran</option>
+                              <option value="1">Gopay</option>
+                              <option value="2">Dana</option>
+                              <option value="4">OVO</option>
+                              <option value="5">BCA</option>
+                              <option value="6">Indomaret</option>
+                            </select>
+                          </div>
+                          <button type="submit" class="btn btn-success mt-3 alert-danger" onclick="alert('Pembayaran Berhasil')">Bayar</button>
+                        </form>
+                  </div>
+              </div>
+          </div>
+          </div>
+        </div>
+        <div class="accordion-item" id="accord">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              PUBG Mobile
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                      <form class="py-4">
+                          <h2>PUBG Mobile</h2>
+                          <p>Silahkan mengisi data untuk melakukan top up</p>
+                          <div class="mb-3">
+                            <label for="text" class="form-label">Nominal UC</label>
+                            <input type="text" class="form-control">
+                          </div>
+                          <div class="row">
+                              <div class="col">
+                                <label for="name" class="form-label">User ID</label>
+                                <input type="text" class="form-control">
+                              </div>
+                          </div>
+                          <div class="mb-3">
+                            <label for="email" class="form-label">Alamat Email</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                          </div>
+                          <div class="col-12">
+                            <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+                            <select class="form-select" id="inlineFormSelectPref">
+                              <option selected>Metode Pembayaran</option>
+                              <option value="1">Gopay</option>
+                              <option value="2">Dana</option>
+                              <option value="4">OVO</option>
+                              <option value="5">BCA</option>
+                              <option value="6">Indomaret</option>
+                            </select>
+                          </div>
+                          <button type="submit" class="btn btn-success mt-3 alert-danger" onclick="alert('Pembayaran Berhasil')">Bayar</button>
+                        </form>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item" id="accord">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Wild Rift
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <div class="container">
+              <div class="row">
+                <div class="col">
+                    <form class="py-4">
+                        <h2>Wild Rift</h2>
+                        <p>Silahkan mengisi data untuk melakukan top up</p>
+                        <div class="mb-3">
+                          <label for="text" class="form-label">Nominal Wild Cores</label>
+                          <input type="text" class="form-control">
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                              <label for="name" class="form-label">Riot ID</label>
+                              <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="email" class="form-label">Alamat Email</label>
+                          <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                        </div>
+                        <div class="col-12">
+                          <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+                          <select class="form-select" id="inlineFormSelectPref">
+                            <option selected>Metode Pembayaran</option>
+                            <option value="1">Gopay</option>
+                            <option value="2">Dana</option>
+                            <option value="4">OVO</option>
+                            <option value="5">BCA</option>
+                            <option value="6">Indomaret</option>
+                          </select>
+                        </div>
+                        <button type="submit" class="btn btn-success mt-3 alert-danger" onclick="alert('Pembayaran Berhasil')">Bayar</button>
+                      </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>
